@@ -1,103 +1,19 @@
 <?xml version='1.0' standalone='yes' ?>
 <LVData xmlns="http://www.ni.com/LVData">
-<Version>14.0f1</Version>
+<Version>18.0f2</Version>
 <Cluster>
 <Name>Settings in</Name>
-<NumElts>2</NumElts>
+<NumElts>4</NumElts>
 <Cluster>
 <Name>Hardware Configuration</Name>
-<NumElts>21</NumElts>
+<NumElts>2</NumElts>
 <DAQChannel>
 <Name>DAQmx AI Channels</Name>
-<Val>cDAQ9188-1992A39Mod4/ai0:7, cDAQ9188-1992A39Mod4/ai16:20</Val>
-</DAQChannel>
-<DBL>
-<Name>Max Input(V)</Name>
-<Val>5.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Min Input(V)</Name>
-<Val>-5.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Input Sample Rate(Hz)</Name>
-<Val>19200.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Input Samples</Name>
-<Val>1000.00000000000000</Val>
-</DBL>
-<Refnum>
-<Name>DAQmx Input Task</Name>
-<RefKind>Generic Tag</RefKind>
-<RefType>NIDAQ</RefType>
 <Val></Val>
-</Refnum>
-<DAQChannel>
-<Name>DAQmx AO Channels</Name>
-<Val>cDAQ9188-1992A39Mod1/ao0:3, cDAQ9188-1992A39Mod2/ao0:3, cDAQ9188-1992A39Mod3/ao0:3</Val>
 </DAQChannel>
-<DBL>
-<Name>Excitation Duty Cycle(%)</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Excitation Current(Amps)</Name>
-<Val>1.00000000000000E-4</Val>
-</DBL>
-<DBL>
-<Name>Max Output(Amps)</Name>
-<Val>1.00000000000000E-3</Val>
-</DBL>
-<DBL>
-<Name>Min Output(Amps)</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Output Sample Rate(Hz)</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Output Samples</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<Refnum>
-<Name>DAQmx Output Task</Name>
-<RefKind>Generic Tag</RefKind>
-<RefType>NIDAQ</RefType>
-<Val></Val>
-</Refnum>
 <Refnum>
 <Name>Aquatrak COM Port</Name>
 <RefKind>VISA</RefKind>
-<Val>COM2</Val>
-</Refnum>
-<DAQChannel>
-<Name>DAQmx Ring Channel</Name>
-<Val>cDAQ9188-1992A39Mod5/ai0</Val>
-</DAQChannel>
-<DBL>
-<Name>Ring Time Level Offset (V)</Name>
-<Val>1.00000000000000</Val>
-</DBL>
-<Refnum>
-<Name>DAQmx Ring Time Task</Name>
-<RefKind>Generic Tag</RefKind>
-<RefType>NIDAQ</RefType>
-<Val></Val>
-</Refnum>
-<DAQChannel>
-<Name>Thermistor Trigger Source</Name>
-<Val>cDAQ9188-1992A39Mod5/ai0</Val>
-</DAQChannel>
-<DAQChannel>
-<Name>Humidity Channel</Name>
-<Val></Val>
-</DAQChannel>
-<Refnum>
-<Name>DAQmx Humidity Task</Name>
-<RefKind>Generic Tag</RefKind>
-<RefType>NIDAQ</RefType>
 <Val></Val>
 </Refnum>
 </Cluster>
@@ -106,13 +22,159 @@
 <NumElts>2</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>C:\Users\Winston\Documents\LabVIEW Data\Aquatrak Data\Aquatrak Data.tdms</Val>
+<Val>C:\Users\dev\Documents\LabVIEW Data\Logged Data.log</Val>
 </Path>
 <Refnum>
 <Name>Data Log Refnum</Name>
 <RefKind>Data Log File</RefKind>
 <Val>0x00000000</Val>
 </Refnum>
+</Cluster>
+<Cluster>
+<Name>UI RefNums</Name>
+<NumElts>19</NumElts>
+<Refnum>
+<Name>Start Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x7D000043</Val>
+</Refnum>
+<Refnum>
+<Name>Settings Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x7D100044</Val>
+</Refnum>
+<Refnum>
+<Name>Exit Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x7D200004</Val>
+</Refnum>
+<Refnum>
+<Name>System Log Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x7E90000E</Val>
+</Refnum>
+<Refnum>
+<Name>RS232 Buffer Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x7EA00028</Val>
+</Refnum>
+<Refnum>
+<Name>Ringtime Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x7EB0002E</Val>
+</Refnum>
+<Refnum>
+<Name>Avg Temp Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x7EC00010</Val>
+</Refnum>
+<Refnum>
+<Name>Thermistors Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x7ED00017</Val>
+</Refnum>
+<Refnum>
+<Name>Collar Meas Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x7D300042</Val>
+</Refnum>
+<Refnum>
+<Name>Short Meas Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x7D400006</Val>
+</Refnum>
+<Refnum>
+<Name>Mid Meas Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x7D50003E</Val>
+</Refnum>
+<Refnum>
+<Name>Long Meas Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x7D600005</Val>
+</Refnum>
+<Refnum>
+<Name>Short LED Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x7F700015</Val>
+</Refnum>
+<Refnum>
+<Name>Mid LED Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x7F800032</Val>
+</Refnum>
+<Refnum>
+<Name>Long LED Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x7F90001B</Val>
+</Refnum>
+<Refnum>
+<Name>Short Offset Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x7FC00061</Val>
+</Refnum>
+<Refnum>
+<Name>Mid Offset Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x7FA0001A</Val>
+</Refnum>
+<Refnum>
+<Name>Long Offset Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x7FB00009</Val>
+</Refnum>
+<Refnum>
+<Name>Timer Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x7FD00060</Val>
+</Refnum>
+</Cluster>
+<Cluster>
+<Name>Meta Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Calibration Location</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Operator Name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Sensor SN</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Cal Tube SN</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Comments</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Start Time</Name>
+<Val></Val>
+</String>
 </Cluster>
 </Cluster>
 </LVData>
