@@ -45,10 +45,10 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Project Documentation" Type="Folder">
-			<Item Name="Continuous Measurement and Logging (NI-DAQmx) Documentation_files" Type="Folder" URL="../documentation/Continuous Measurement and Logging (NI-DAQmx) Documentation_files">
+			<Item Name="Aquatrak Calibration Utility Documentation_files" Type="Folder" URL="../documentation/Aquatrak Calibration Utility Documentation_files">
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Continuous Measurement and Logging (NI-DAQmx) Documentation.html" Type="Document" URL="../documentation/Continuous Measurement and Logging (NI-DAQmx) Documentation.html"/>
+			<Item Name="Aquatrak Calibration Utility Documentation.html" Type="Document" URL="../documentation/Aquatrak Calibration Utility Documentation.html"/>
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
