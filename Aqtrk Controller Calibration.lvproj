@@ -104,8 +104,11 @@
 			<Item Name="Plugin - Acquire Meta Data.vi" Type="VI" URL="../Plugins/Plugin - Acquire Meta Data.vi"/>
 			<Item Name="Plugin - Collar Measurement.vi" Type="VI" URL="../Plugins/Plugin - Collar Measurement.vi"/>
 			<Item Name="Plugin - Short Measurement.vi" Type="VI" URL="../Plugins/Plugin - Short Measurement.vi"/>
+			<Item Name="Plugin -Short Offset.vi" Type="VI" URL="../Plugins/Plugin -Short Offset.vi"/>
 			<Item Name="Plugin - Mid Measurement.vi" Type="VI" URL="../Plugins/Plugin - Mid Measurement.vi"/>
+			<Item Name="Plugin -Mid Offset.vi" Type="VI" URL="../Plugins/Plugin -Mid Offset.vi"/>
 			<Item Name="Plugin - Long Measurement.vi" Type="VI" URL="../Plugins/Plugin - Long Measurement.vi"/>
+			<Item Name="Plugin - LongOffset.vi" Type="VI" URL="../Plugins/Plugin - LongOffset.vi"/>
 		</Item>
 		<Item Name="Acquisition.lvlib" Type="Library" URL="../Acquisition/Acquisition.lvlib"/>
 		<Item Name="Logging.lvlib" Type="Library" URL="../Logging/Logging.lvlib"/>
@@ -116,7 +119,6 @@
 		<Item Name="Settings.xml" Type="Document" URL="../Settings.xml"/>
 		<Item Name="SHart.xml" Type="Document" URL="../SHart.xml"/>
 		<Item Name="icon.ico" Type="Document" URL="../icon.ico"/>
-		<Item Name="Plugin -Short Offset.vi" Type="VI" URL="../Plugins/Plugin -Short Offset.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
