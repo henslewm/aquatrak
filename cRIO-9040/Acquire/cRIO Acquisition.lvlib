@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Acquire - Flush AT Serial Buffer.vi" Type="VI" URL="../Acquire - Flush AT Serial Buffer.vi"/>
 	<Item Name="Acquire Aquatrak Data.vi" Type="VI" URL="../Acquire Aquatrak Data.vi"/>
 	<Item Name="Acquire Ring Time.vi" Type="VI" URL="../Acquire Ring Time.vi"/>
 	<Item Name="Acquire Temperatures.vi" Type="VI" URL="../Acquire Temperatures.vi"/>
